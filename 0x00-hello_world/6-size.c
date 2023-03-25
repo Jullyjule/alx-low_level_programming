@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - the funtion
+ * main - function is printf
  *
- * Return 0 for success
+ * Return: 0 for success
  */
 
 int main(void)
 {
-	printf("Size of a char: %lu byte(s)", sizeof(char)(\n));
-	printf("Size of an int: %lu byte(s)", sizeof(int)(\n));
-	printf("Size of a long int: %lu byte(s)", sizeof(long int)(\n));
-	printf("Size of a long long int: %lu byte(s)", sizeof(long long int)(\n));
-	printf("Size of a float: %lu byte(s)", sizeof (float)(\n));
+	printf("Size of a char: %lu byte(s)", sizeof(char));
+	printf("Size of an int: %lu byte(s)", sizeof(int));
+	printf("Size of a long int: %lu byte(s)", sizeof(long int));
+	printf("Size of a long long int: %lu byte(s)", sizeof(long long int));
+	printf("Size of a float: %lu byte(s)", sizeof(float));
 	return (0);
 }
